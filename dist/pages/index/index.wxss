@@ -1,0 +1,153 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@6.11.0_webpack@5.69.0_@swc+core@1.3.96_/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[1]!./node_modules/.pnpm/postcss-loader@7.3.4_postcss@8.4.49_typescript@4.9.5_webpack@5.69.0_@swc+core@1.3.96_/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[2]!./node_modules/.pnpm/resolve-url-loader@5.0.0/node_modules/resolve-url-loader/index.js!./node_modules/.pnpm/sass-loader@12.4.0_sass@1.50.0_webpack@5.69.0_@swc+core@1.3.96_/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[4]!./node_modules/.pnpm/@nutui+nutui-react-taro@2.7.0_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@nutui/nutui-react-taro/dist/packages/indicator/indicator.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.nut-indicator {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nut-indicator-dot {
+  display: inline-block;
+  vertical-align: middle;
+  width: var(--nutui-indicator-dot-size, 4px);
+  height: var(--nutui-indicator-dot-size, 4px);
+  border-radius: 50%;
+  background-color: var(--nutui-indicator-dot-color, var(--nutui-black-3, rgba(0, 0, 0, 0.06)));
+  margin: 0 var(--nutui-indicator-dot-margin, 2px);
+}
+.nut-indicator-dot:first-child {
+  margin-left: 0px;
+}
+.nut-indicator-dot:last-child {
+  margin-right: 0px;
+}
+.nut-indicator-active {
+  width: var(--nutui-indicator-dot-active-size, 8px);
+  border-radius: var(--nutui-indicator-border-radius, 2px);
+  background: var(--nutui-indicator-color, linear-gradient(135deg, var(--nutui-color-primary-stop-1, #f53d4d) 0%, var(--nutui-color-primary-stop-2, #fa2c19) 100%));
+}
+.nut-indicator-vertical {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.nut-indicator-vertical .nut-indicator-dot {
+  margin: var(--nutui-indicator-dot-margin, 2px) 0;
+}
+.nut-indicator-vertical .nut-indicator-dot:first-child {
+  margin-top: 0px;
+}
+.nut-indicator-vertical .nut-indicator-dot:last-child {
+  margin-bottom: 0px;
+}
+.nut-indicator-vertical .nut-indicator-active {
+  width: var(--nutui-indicator-dot-size, 4px);
+  height: var(--nutui-indicator-dot-active-size, 8px);
+}
+[dir=rtl] .nut-indicator-dot:first-child,
+.nut-rtl .nut-indicator-dot:first-child {
+  margin-left: var(--nutui-indicator-dot-margin, 2px);
+  margin-right: 0px;
+}
+[dir=rtl] .nut-indicator-dot:last-child,
+.nut-rtl .nut-indicator-dot:last-child {
+  margin-right: var(--nutui-indicator-dot-margin, 2px);
+  margin-left: 0px;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@6.11.0_webpack@5.69.0_@swc+core@1.3.96_/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[1]!./node_modules/.pnpm/postcss-loader@7.3.4_postcss@8.4.49_typescript@4.9.5_webpack@5.69.0_@swc+core@1.3.96_/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[2]!./node_modules/.pnpm/resolve-url-loader@5.0.0/node_modules/resolve-url-loader/index.js!./node_modules/.pnpm/sass-loader@12.4.0_sass@1.50.0_webpack@5.69.0_@swc+core@1.3.96_/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[4]!./node_modules/.pnpm/@nutui+nutui-react-taro@2.7.0_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@nutui/nutui-react-taro/dist/packages/swiper/swiper.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.nut-swiper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -ms-touch-action: none;
+      touch-action: none;
+  position: relative;
+}
+.nut-swiper-indicator {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  bottom: var(--nutui-swiper-indicator-bottom, 12px);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 1;
+}
+.nut-swiper-indicator-vertical {
+  top: 50%;
+  left: 12px;
+  bottom: auto;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1;
+}
+.nut-swiper-inner {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.nut-swiper-inner-horizontal {
+  -webkit-transform: translateX(var(--swiper-offset));
+      -ms-transform: translateX(var(--swiper-offset));
+          transform: translateX(var(--swiper-offset));
+}
+.nut-swiper-inner-vertical {
+  -webkit-transform: translateY(var(--swiper-offset));
+      -ms-transform: translateY(var(--swiper-offset));
+          transform: translateY(var(--swiper-offset));
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.nut-swiper-slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+.nut-swiper-item {
+  width: 100%;
+  height: 100%;
+}
+[dir=rtl] .nut-swiper-indicator,
+.nut-rtl .nut-swiper-indicator {
+  left: auto;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+      -ms-transform: translateX(50%);
+          transform: translateX(50%);
+}
+[dir=rtl] .nut-swiper-indicator-vertical,
+.nut-rtl .nut-swiper-indicator-vertical {
+  left: auto;
+  right: 12px;
+}
