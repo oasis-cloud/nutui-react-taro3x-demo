@@ -11,10 +11,10 @@ require("./runtime");
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _Users_wangbei6_Desktop_nutui_issues_taro_3_6_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _Users_wangbei6_Desktop_nutui_issues_taro_3_6_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/createClass.js */ "./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _Users_wangbei6_Desktop_nutui_issues_taro_3_6_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_callSuper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/callSuper.js */ "./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/callSuper.js");
-/* harmony import */ var _Users_wangbei6_Desktop_nutui_issues_taro_3_6_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_inherits_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/inherits.js */ "./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _Users_wangbei6_Desktop_demo_nutui_react_taro3x_demo_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _Users_wangbei6_Desktop_demo_nutui_react_taro3x_demo_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/createClass.js */ "./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _Users_wangbei6_Desktop_demo_nutui_react_taro3x_demo_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_callSuper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/callSuper.js */ "./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/callSuper.js");
+/* harmony import */ var _Users_wangbei6_Desktop_demo_nutui_react_taro3x_demo_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_inherits_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/inherits.js */ "./node_modules/.pnpm/@babel+runtime@7.26.0/node_modules/@babel/runtime/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.production.min.js");
 
 
@@ -24,11 +24,11 @@ require("./runtime");
 
 var App = /*#__PURE__*/function (_Component) {
   function App() {
-    (0,_Users_wangbei6_Desktop_nutui_issues_taro_3_6_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__["default"])(this, App);
-    return (0,_Users_wangbei6_Desktop_nutui_issues_taro_3_6_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_callSuper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(this, App, arguments);
+    (0,_Users_wangbei6_Desktop_demo_nutui_react_taro3x_demo_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__["default"])(this, App);
+    return (0,_Users_wangbei6_Desktop_demo_nutui_react_taro3x_demo_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_callSuper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(this, App, arguments);
   }
-  (0,_Users_wangbei6_Desktop_nutui_issues_taro_3_6_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_inherits_js__WEBPACK_IMPORTED_MODULE_3__["default"])(App, _Component);
-  return (0,_Users_wangbei6_Desktop_nutui_issues_taro_3_6_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_4__["default"])(App, [{
+  (0,_Users_wangbei6_Desktop_demo_nutui_react_taro3x_demo_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_inherits_js__WEBPACK_IMPORTED_MODULE_3__["default"])(App, _Component);
+  return (0,_Users_wangbei6_Desktop_demo_nutui_react_taro3x_demo_node_modules_pnpm_babel_runtime_7_26_0_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_4__["default"])(App, [{
     key: "componentDidMount",
     value: function componentDidMount() {}
   }, {

@@ -1,19 +1,28 @@
-import {Swiper} from '@nutui/nutui-react-taro'
-const Demo7 = () => {
-  const list = [
-    'https://storage.360buyimg.com/jdc-article/NutUItaro34.jpg',
-    'https://storage.360buyimg.com/jdc-article/NutUItaro2.jpg',
-    'https://storage.360buyimg.com/jdc-article/welcomenutui.jpg',
-    'https://storage.360buyimg.com/jdc-article/fristfabu.jpg',
-  ]
-  return (
-    <Swiper defaultValue={0} loop previousMargin="20px" nextMargin="20px">
-      {list.map((item) => (
-        <Swiper.Item key={item}>
-          <img width="100%" height="100%" src={item} alt="" />
-        </Swiper.Item>
-      ))}
-    </Swiper>
-  )
+import React, {useState} from 'react';
+import {Form, Input, Tabs} from '@nutui/nutui-react-taro';
+
+const Example = () => {
+    const [tab1value, setTab1value] = useState('0')
+    return <Tabs
+        value={tab1value}
+        onChange={(value) => {
+            setTab1value(value)
+        }}
+    >
+        <Tabs.TabPane title="Tab 1">
+            <Form labelPosition="left" divider initialValues={{account: '123454'}}>
+                <Form.Item
+                    label="手机号"
+                    name="account"
+                    rules={[{required: true, message: '请输入手机号'}]}
+                    required={false}
+                >
+                    <Input/>
+                </Form.Item>
+            </Form>
+        </Tabs.TabPane>
+        <Tabs.TabPane title="Tab 2"> Tab 2 </Tabs.TabPane>
+        <Tabs.TabPane title="Tab 3"> Tab 3 </Tabs.TabPane>
+    </Tabs>
 }
-export default Demo7
+export default Example;
